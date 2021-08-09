@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "baseUrl": "./src",
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@repositories/*": ["repositories/*"],
+      "@infra/*": ["infra/*"],
+      "@config/*": ["config/*"],
+      "@core/*": ["core/*"],
+      "@shared/*": ["shared/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
